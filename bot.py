@@ -269,15 +269,15 @@ def botCheck(bot, update, user_data):
 			deletePreviousMsg (bot,update.message.chat_id,user_data['previous_msg_id'])
 			photo = 'AgADAQADlKgxG25P8UVYMcR9vsY7W3kj9y8ABBKkxHkt98LlH3oEAAEC'
 			bot.send_photo(update.message.chat_id, photo, timeout=30)
-			text = '''🔥🔥🔥Hello and Welcome to HetaChain Airdrop Bot.
-⭐️⭐️⭐️HetaChain: A Third Trendy Generation Blockchain Platform.
+			text = '''🔥🔥🔥Hello and Welcome to BINAX Airdrop Bot.
+⭐️⭐️⭐️BINAX: A Third Trendy Generation Blockchain Platform.
 🔥🔥🔥The Rewards up to $2,000,000 in Airdrop Campaign.
-☀️☀️☀️Follow The Following Rules To Get Free HETA:
-🌧 Step 1: Join Our Community Group (300 HETA) ($5)
-🌧 Step 2: Join HetaChain Announcement Channel (300 HETA) ($5)
-🌧 Step 3: Follow on HetaChain Twitter (300 HETA) ($5)
-🌧 Step 4: Reweet HetaChain's Post on Twitter (300 HETA)  ($5)
-🌟🌟🌟 Extra rewards : Earn Up To $100 in HETA Through Referral Campaign. 
+☀️☀️☀️Follow The Following Rules To Get Free BIN:
+🌧 Step 1: Join Our Community Group (300 BIN) ($5)
+🌧 Step 2: Join BINAX Offical Announcement Channel (300 BIN) ($5)
+🌧 Step 3: Follow on BINAX Twitter (300 BIN) ($5)
+🌧 Step 4: Reweet BINAX's Post on Twitter (300 BIN)  ($5)
+🌟🌟🌟 Extra rewards : Earn Up To $100 in BIN Through Referral Campaign. 
 🌟🌟🌟120 HETA ($2) Per Each Referral . Maximum 50 Referrals)'''
 			keyboard = [
 					[InlineKeyboardButton("Join our Community Group %s"%getEmoji(':busts_in_silhouette:'),url=CHAN['group']['link'])],
